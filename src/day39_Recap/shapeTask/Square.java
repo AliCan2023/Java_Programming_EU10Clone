@@ -1,6 +1,8 @@
 package day39_Recap.shapeTask;
 
-public class Square extends Shape{
+import day39_Recap.cydeoTask.Shape;
+
+public class Square extends Shape {
 
     private double side;
 

@@ -1,6 +1,8 @@
 package day39_Recap.shapeTask;
 
-public class Circle extends Shape{
+import day39_Recap.cydeoTask.Shape;
+
+public class Circle extends Shape {
 
     private double radius;
     public static double pi = 3.14;
@@ -17,21 +19,21 @@ public class Circle extends Shape{
         this.radius = radius;
     }
 
-    public Circle( double radius) {
-        super("Circle");
+    public Circle( double radius) {// take out the String name parameter
+        super("Circle");// just give the name circle;
         setRadius(radius);
     }
 
 
+    @Override
     public double area() {
-        return radius* radius* pi;
+        return radius * radius *pi;
     }
 
-
+    @Override
     public double perimeter() {
-        return 2*radius*pi;
+        return super.perimeter();
     }
-
 
     public String toString() {
         return "Circle{" +
