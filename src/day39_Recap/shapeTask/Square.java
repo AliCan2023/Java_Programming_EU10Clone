@@ -1,7 +1,5 @@
 package day39_Recap.shapeTask;
 
-import day39_Recap.cydeoTask.Shape;
-
 public class Square extends Shape {
 
     private double side;// in this case you do have a control on your assigning the value by setting the condition;

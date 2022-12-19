@@ -1,7 +1,5 @@
 package day39_Recap.shapeTask;
 
-import day39_Recap.cydeoTask.Shape;
-
 public class Rectangle extends Shape {
 
     private double length, width;

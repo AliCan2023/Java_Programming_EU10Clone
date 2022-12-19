@@ -1,7 +1,5 @@
 package day39_Recap.shapeTask;
 
-import day39_Recap.cydeoTask.Shape;
-
 public class Circle extends Shape {
 
     private double radius;
