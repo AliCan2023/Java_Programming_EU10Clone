@@ -52,7 +52,7 @@ public class  Person {
         System.out.println(name+" is sleeping");
     }
 
-// we can override the toString method later in the subclasses
+// we can override the toString method later in the subclasses;
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
