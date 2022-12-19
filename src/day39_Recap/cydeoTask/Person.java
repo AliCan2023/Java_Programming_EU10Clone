@@ -1,10 +1,11 @@
 package day39_Recap.cydeoTask;
 
-public class Person {
+public class  Person {
 
     private String name;
     private int age;
-    private char gender;
+    private char gender; // the benefits of having private instance variables through setters and getters to be accessed(get) and changed(set)
+                         // later on in the subclass you can set some conditions to them;
 
     public String getName() {
         return name;
@@ -30,12 +31,15 @@ public class Person {
         this.gender = gender;
     }
 
+    //set the constructor using setters;
+
     public Person(String name, int age, char gender) {
         setName(name);
         setAge(age);
-        setGender(gender);
-    }
+        setGender(gender);// these setters it can also check the conditions if conditions are match those conditions are help us to match the argument;
+    }// cannot be inherited but called.
 
+//Methods to be inherited
     public void eat(){
         System.out.println(name+" is eating");
     }
@@ -48,7 +52,7 @@ public class Person {
         System.out.println(name+" is sleeping");
     }
 
-
+// we can override the toString method later in the subclasses
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
