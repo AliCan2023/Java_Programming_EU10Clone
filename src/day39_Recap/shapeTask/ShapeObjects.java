@@ -1,14 +1,15 @@
 package day39_Recap.shapeTask;
 
-public class ShapeObjects {
+public class ShapeObjects {// you have to be able to tell which variables are inherited which are not;this is really important for OOP;
 
     public static void main(String[] args) {
+//Square Object:
+        Square square = new Square(10);// in the Square class we only have one argument;
 
-        Square square = new Square(10);
+        System.out.println(square);//exit code is 1 koz something went wrong here.if nothing is wrong with the code the exit code is 0;
 
-        System.out.println(square);
-
-       // square.side = -10000000;
+       // square.side = 30; variable side we declared it as private that's why we use setter;
+        //square.side =-1000;//if the Variable is not private we cannot set the condition in Square Class;so only through Square.setSide(); we can call and set the side var;
         square.setSide( 15 );
 
         System.out.println(square);
@@ -17,13 +18,14 @@ public class ShapeObjects {
 
         System.out.println("------------------------");
 
-        Rectangle rectangle = new Rectangle(5, 6);
+// rectangle object:
+        Rectangle rectangle = new Rectangle(5, 8);
 
         System.out.println(rectangle);
 
-        rectangle.setLength(10);
+        rectangle.setLength(10);// If I wanna change the length call this method;
 
-        System.out.println( rectangle.getLength() );
+        System.out.println( rectangle.getLength() );// if I want to read the value through this method;
 
         System.out.println( rectangle);
 
@@ -51,6 +53,4 @@ public class ShapeObjects {
 
 
     }
-
-
 }
