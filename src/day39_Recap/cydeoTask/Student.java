@@ -1,6 +1,7 @@
 package day39_Recap.cydeoTask;
 
-public class Student extends Person  {
+public class Student extends Person  {// Student class does not need some variables form Employee class but can be inherited to Person class;
+    //before you extend it to a parent class you had better to set the instance variables and fields of the class;
 
     private int studentId;
     private String fieldOfStudy;
@@ -8,7 +9,7 @@ public class Student extends Person  {
     public Student(String name, int age, char gender, int studentId, String fieldOfStudy) {
         super(name, age, gender);
         setStudentId(studentId);
-        setFieldOfStudy(fieldOfStudy);
+        setFieldOfStudy(fieldOfStudy);// what if we have conditions ? so it is better to use setter method instead of this key word;
     }
 
     public int getStudentId() {
@@ -28,7 +29,7 @@ public class Student extends Person  {
     }
 
     public void study(){
-        System.out.println(getName()+" is studying");
+        System.out.println(getName()+" is studying");// the name is privet that's why we should call it by getter;
     }
 
     public String toString() {
@@ -36,7 +37,7 @@ public class Student extends Person  {
                 "name='" + getName() + '\'' +
                 ", age=" + getAge() +
                 ", gender=" + getGender() +
-                ", studentId=" + studentId +
+                ", studentId=" + studentId +// we should override toString method from Person class and add the fields;
                 ", fieldOfStudy='" + fieldOfStudy + '\'' +
                 '}';
     }
