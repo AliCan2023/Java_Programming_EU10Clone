@@ -1,6 +1,7 @@
 package day40_ProtectedAccesModifier_FinalKeyword;
 
-public final  class FinalClass {// once the class is final it cannot be extended by any other classes;
+public final  class FinalClass {// once the class is final it cannot be extended by any other classes; it cannot be a parent;
+    //
 
     public static void main(String[] args) {
 

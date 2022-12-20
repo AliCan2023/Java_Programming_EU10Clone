@@ -7,14 +7,14 @@ public final class Iphone extends Phone{
         super("Apple", model, size, price, color);
     }
 
-    public void faceTime(long phoneNumber){
+    public final void faceTime(long phoneNumber){ // in the final class you don't need to declare the method as final;
         System.out.println(brand + " " + model + " " + " is having a Face Time with phone number: " + phoneNumber);
     }
 
     public void faceTime(String email){
         System.out.println(brand + " " + model + " is having a Face Time with email: " + email);
     }
-
+// in this case we cannot override the method but in Java you can overload any method you want;
 
 }
 
