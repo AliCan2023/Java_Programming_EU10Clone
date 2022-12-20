@@ -19,7 +19,7 @@ public class Developer extends Employee {
 }
 
 /*
-4. Create a sub class of Employee named Developer
+4. Create a subclass of Employee named Developer
 
             Override the work method
 

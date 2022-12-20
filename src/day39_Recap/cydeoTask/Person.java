@@ -37,7 +37,7 @@ public class  Person {
         setName(name);
         setAge(age);
         setGender(gender);// these setters it can also check the conditions if conditions are match those conditions are help us to match the argument;
-    }// cannot be inherited but called.
+    }// cannot be inherited but must be called by the subclass who IS Relation to Parent Class.
 
 //Methods to be inherited
     public void eat(){

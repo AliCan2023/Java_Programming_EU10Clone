@@ -1,6 +1,6 @@
 package day39_Recap.cydeoTask;
 
-public class Tester extends Employee{
+public class Tester extends Employee{ // once there IS Relation between two classes the constructor must be called ;
 
     public Tester(String name, int age, char gender, int employeeID, String jobTitle, double salary) {
         super(name, age, gender, employeeID, jobTitle, salary);
