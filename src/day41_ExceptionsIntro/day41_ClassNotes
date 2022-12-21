@@ -9,7 +9,7 @@ Access Modifiers:
 
 
 Final Keyword: unchangable
-		
+
 		Variables: can not be reassigned
 
 		Methods: can not be overridden
@@ -41,7 +41,7 @@ Exceptions: unexpected or unwanted events
 
 
 Exception handlings:
-		
+
 		1. Try & Catch blocks: used for handling checked and unchecked exceptions
 
 						try{
@@ -63,7 +63,7 @@ Exception handlings:
 
 
 Interview Question:
-		
+
 		final vs finally vs finalize
 
 
@@ -79,7 +79,7 @@ Next Next Monday (Jan 31st):
 
 
 
-	
+
 	OOP Polymorphism
 
 
