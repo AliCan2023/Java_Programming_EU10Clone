@@ -1,5 +1,8 @@
 package day41_ExceptionsIntro;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 public class TryCatchBlocks {
     public static void main(String[] args) {
 
@@ -52,6 +55,28 @@ public class TryCatchBlocks {
             b.printStackTrace();
         }
         System.out.println("Test3 completed.");
+
+        System.out.println("---------------------------------------------");
+
+
+        System.out.println("Hello");
+
+
+        try { //if try block doesn't catch the exception it goes to catch block but here this block hast catch and the catch block doesn't execute but...????
+            Thread.sleep(3000);//compiler tells me that Interrupted Exception
+        } catch (InterruptedException e) {
+            e.printStackTrace(); // strongly recommended to get full detailed explanation
+        }
+
+        System.out.println("Cydeo");
+
+        System.out.println("-----------------------------------");
+
+        try {
+            FileInputStream file = new FileInputStream("File path");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
 
 
     }
