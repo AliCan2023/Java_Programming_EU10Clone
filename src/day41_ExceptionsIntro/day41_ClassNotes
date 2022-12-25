@@ -65,6 +65,13 @@ Exception handlings:
 Interview Question:
 
 		final vs finally vs finalize
+		Final is a keyword;a
+		finalize is a method that the garbage collector calls it to destroy the object every single object comes for the object class;
+		finally is a block; after last the catch block; it is not else block;
+	            finally block regardless of how many catch blocks of you have no stopping to get executed unless you explicitly terminate the program;
+
+
+
 
 
 
