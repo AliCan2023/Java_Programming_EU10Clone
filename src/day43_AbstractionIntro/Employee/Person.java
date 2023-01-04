@@ -1,12 +1,12 @@
 package day43_AbstractionIntro.Employee;
 
-public abstract class Person { // the grand parent class;
+public abstract class Person { // the grandparent class;
 
     private String name;
     private int age;
     private char gender;
 
-    public Person(String name, int age, char gender) {// if i have the setters here it makes me easier to set the values of the variables;
+    public Person(String name, int age, char gender) {// if i have the setters here it makes me easier to set check  the values of the variables;
 
         setName(name);
         setAge(age);
