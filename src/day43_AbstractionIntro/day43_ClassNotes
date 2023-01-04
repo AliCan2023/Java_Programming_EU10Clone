@@ -3,7 +3,7 @@ Topic: Abstraction Intro
 			Abstract Method
 			Abstract class
 
-package name: day43_Abstraction
+package name: day43_AbstractionIntro
 
 
 Exception:
@@ -48,7 +48,7 @@ Abstraction: focusing on the essentials without worrying about the small details
 
 
 abstract class Device{
-	tunrOff();
+	turnOff();
 
 }
 
