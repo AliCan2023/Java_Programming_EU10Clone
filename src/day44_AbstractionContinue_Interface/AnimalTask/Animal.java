@@ -9,7 +9,6 @@ public abstract class Animal { // this class has to be a parent class;
     private final char gender;
     private final String color;
 
-
     public final static boolean canBreath;
     static {
         canBreath=true;
@@ -86,7 +85,7 @@ public abstract class Animal { // this class has to be a parent class;
 
     @Override
     public String toString() {
-        return getClass().getSimpleName()+ "{" + // if you don't wanna see the name Animal in every other class use this getClass().method;
+        return getClass().getSimpleName()+ "{" + // if you want every other subclass has its own name(Dog,Cat etc) use this getClass().method;
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", size='" + size + '\'' +
@@ -96,6 +95,17 @@ public abstract class Animal { // this class has to be a parent class;
                 '}';
     }
 }
+
+
+/*class Test{ // in order to understand deeply the difference between getName and getSimpleName method;
+    public static void main(String[] args) {
+
+        System.err.println(new Test().getClass().getName());
+        System.out.println(new Test().getClass().getSimpleName());
+    }
+
+ */
+
 /*
 Animal Task:
 		Create an abstract class named Animal:
