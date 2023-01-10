@@ -82,6 +82,8 @@ public abstract class Animal { // this class has to be a parent class;
     public abstract void eat();// Make this method abstract to only focus on the essentials and details to be taken cared of it in the subclass.there are only two ways to have abstract method either you have an abstract class or interface;here in this case
     // we choose the class abstract since I want this class a parent class;
 
+//public abstract void  play();// if something is not common for all subclasses we shouldn't use the abstract method;
+
 
     @Override
     public String toString() {

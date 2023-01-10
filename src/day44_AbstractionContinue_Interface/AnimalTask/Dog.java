@@ -1,6 +1,6 @@
 package day44_AbstractionContinue_Interface.AnimalTask;
 
-public final class Dog extends Animal{
+public final class Dog extends Animal implements Playable{
 
     public Dog(String breed, char gender, String color, int age, String size) {
         super("Dog", breed, gender, color, age, size);
@@ -18,6 +18,10 @@ public final class Dog extends Animal{
     }
 
 
+    @Override
+     public void play() {
+        System.out.println(getName() + " is playing soccer ball.");
 
     }
+}
 
