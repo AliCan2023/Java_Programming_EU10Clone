@@ -29,6 +29,26 @@ public class Circle extends Shape { // first call the abstract class method seco
 
     @Override
     public double perimeter() {
-        return 0;
+        return 2 * radius * pi;
     }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                super.toString()+ // call the toString method of parent class using super keyword is the best and fastest way;
+                ", radius=" + radius +
+                '}';
+    }
+
+    /*
+    public String toString() {
+        return "Circle{" +
+                "name='" + getName() + '\'' +
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
+                ", radius=" + radius +
+                '}';
+    }
+
+     */
 }
