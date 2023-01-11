@@ -1,10 +1,9 @@
 package day45_Abstraction_Interface_Continue.Shape;
 
-public class Cube extends Shape implements Volume{
+public class Pentagon extends Shape{
 
 
-
-    public Cube(String name) {
+    public Pentagon(String name) {
         super(name);
     }
 
@@ -15,11 +14,6 @@ public class Cube extends Shape implements Volume{
 
     @Override
     public double perimeter() {
-        return 0;
-    }
-
-    @Override
-    public double volume() {
         return 0;
     }
 }

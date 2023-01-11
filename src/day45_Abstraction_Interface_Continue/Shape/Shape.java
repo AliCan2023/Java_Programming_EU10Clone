@@ -14,7 +14,7 @@ public abstract class Shape {
     public abstract double area();// different shape has different area that's why we make this method instance first but i can make it abstract to let the subs take care of the details of the methods;
 
 
-    public abstract double perimeter(); // same here;
+    public abstract double perimeter(); // same here;// you can move this to interface type  if some of sub_classes don't have perimeter;
 
     @Override
     public String toString() {
