@@ -33,10 +33,23 @@ public interface PropertiesOfInterface { // interface  is a super type not a sup
     //But once you turn  this class into interface you wouldn't have....
 
     // one more method was introduced before the static method introduced which is default method;
-    public default  void method(){
+    public default  void method4() {
         System.out.println("default method.");
+
+        class Test implements PropertiesOfInterface {// first override the abstract method;
+
+            @Override
+            public void method3() {
+
+            }
+
+            public static void main(String[] args) {
+
+                new Test().method4();// we call the instances through the object; and here default method of interface becomes the instance method of the object class;
+
+            }
+        }
+
+
     }
-
-
-
 }
