@@ -43,11 +43,12 @@ public interface PropertiesOfInterface { // interface  is a super type not a sup
 
             }
 
-            public static void main(String[] args) {
-
+           /* public static void main(String[] args) {
                 new Test().method4();// we call the instances through the object; and here default method of interface becomes the instance method of the object class;
 
             }
+
+            */
         }
 
 

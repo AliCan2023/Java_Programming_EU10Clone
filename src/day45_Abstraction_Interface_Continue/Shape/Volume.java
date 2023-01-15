@@ -1,6 +1,6 @@
 package day45_Abstraction_Interface_Continue.Shape;
 
-public interface Volume {
+public interface Volume {//in one interface you can have as many of them as you want but only one is public which has the same with the file;
 
     static final boolean hasVolume = true;
 
@@ -12,6 +12,13 @@ public interface Volume {
     }
 
      */
+
+    abstract class QQQ{
+
+    }
+    interface QQ{
+
+    }
 
 
 }

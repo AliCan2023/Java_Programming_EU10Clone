@@ -1,4 +1,18 @@
 package day45_Abstraction_Interface_Continue.Shape;
+interface XX{ // we can create as many classes and interfaces as we want in a class file. but there can only be one public class or interface
+    //which the names are the same with file name;
+
+}
+interface YY{
+
+}
+
+abstract class AAA{
+
+}
+abstract class BBB{
+
+}
 
 public class Circle extends Shape { // first call the abstract class method second call the constructor;
     private double radius;// gotta be encapsulated;
