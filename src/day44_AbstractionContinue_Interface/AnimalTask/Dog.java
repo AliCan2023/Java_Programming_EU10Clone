@@ -3,7 +3,7 @@ package day44_AbstractionContinue_Interface.AnimalTask;
 public final class Dog extends Animal implements Playable{
 
     public Dog(String name,String breed, char gender, String color, int age, String size) {
-        super("Dog", breed, gender, color, age, size);
+        super(name, breed, gender, color, age, size);
     }
 
     public void bark(){

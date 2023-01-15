@@ -37,9 +37,9 @@ Polymorphism (Many forms): Ability of the objects to take on many forms
 Dynamic Polymorphism: Method overriding
 					 One method with multiple implementations
 
-					 eat():
+					 eat(): // only one method MULTIPLE implementations;
 
-					 implementation1: bakla
+					 implementation1: baklava
 					 implementation2: Java
 					 ...
 
