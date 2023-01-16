@@ -42,7 +42,7 @@ public class ReferenceTypeCasting {
 */
         dog.bark();
         System.out.println(animal.getName());//Alexa
-        System.out.println(dog.getName());//Max
+        System.out.println(dog.getName());//Alexa
 
        //animal.bark();
         dog.bark();
@@ -52,6 +52,7 @@ public class ReferenceTypeCasting {
         Shape shape1 = new Square(6);
 
         System.out.println(((Square) shape1).getSide());//shortcut: Option + Enter--->Cast qualifier to' package';
+        System.out.println("shape.area() = " + shape1.area());//6*6;
 
         System.out.println("-----------------------------------------------");
 
@@ -83,8 +84,8 @@ public class ReferenceTypeCasting {
         System.out.println("-------------------------------------------");
 
         Shape s1 = new Circle(11);
-        s1.area();
-        s1.perimeter();
+        System.out.println("s1.area() = " + s1.area());
+        System.out.println("s1.perimeter() = " + s1.perimeter());
         //((Cube)s1).volume();
 
     }

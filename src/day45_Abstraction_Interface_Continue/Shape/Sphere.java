@@ -1,6 +1,6 @@
 package day45_Abstraction_Interface_Continue.Shape;
 
-public class Sphere extends Shape{
+public class Sphere extends Shape implements Volume{
 
 
 
@@ -15,6 +15,12 @@ public class Sphere extends Shape{
 
     @Override
     public double perimeter() {
+        return 0;
+    }
+
+
+    @Override
+    public double volume() {
         return 0;
     }
 }

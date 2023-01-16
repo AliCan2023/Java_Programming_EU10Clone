@@ -119,7 +119,7 @@ public class PolymorphismIntro {
         System.out.println("isCircle = " + isCircle);
 
         /*
-        how do i know the chrome brower or safari or foxfire open?
+        how do i know the chrome browser or safari or foxfire open?
 
         WebDriver driver; // driver could be chrome or firefox or safari;
 
