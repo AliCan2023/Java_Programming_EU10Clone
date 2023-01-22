@@ -9,8 +9,3 @@ abstract  class B implements A{
         System.out.println("Reading book");
     }
 }
-public class C extends B{
-    public void watchTV(){
-        System.out.println("Watching TV");
-    }
-}
