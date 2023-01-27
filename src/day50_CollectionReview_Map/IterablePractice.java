@@ -24,8 +24,6 @@ public class IterablePractice {
 //        The reason is that when you remove an element from the List using the remove() method, the size of the List is reduced by one, but the index of the next element is not updated.
 //        So, when you call list.remove(i), the next element will be skipped, resulting in some elements being left in the List that should have been removed.
 
-
-
         System.out.println("===============================================================");
 
         List<Integer> list2 = new ArrayList<>(Arrays.asList(1,2,3,4,5,1,2,3,4,5,1,2,3,4,5));
@@ -80,8 +78,14 @@ It allows you to traverse the list in a clean and efficient way.
        }
         System.out.println("list3 = " + list3);
 
+        System.out.println("===============================================================");
+
+        List<Integer> list4 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,1,2,3,4,5,6,7));
+        list4.removeIf(each -> each <4);
+        // creates the iterator and while loop and hasNext(); method everything is provided in the lambda expression ;
+        // Lambda expression is the shortcut for Iterator interface;
+        System.out.println("list4 = " + list4);
+
 
     }
-
-
 }
