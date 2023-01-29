@@ -1,4 +1,4 @@
-package unit5_TestCollections.Exceptions;
+package javaQuiz$Tests.unit5_TestCollections.Exceptions;
 
 public class Test7 {
     public static void main(String[] args) {

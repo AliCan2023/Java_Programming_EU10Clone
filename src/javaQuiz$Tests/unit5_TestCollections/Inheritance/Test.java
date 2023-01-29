@@ -1,6 +1,6 @@
-package unit5_TestCollections.Inheritance;
+package javaQuiz$Tests.unit5_TestCollections.Inheritance;
 
-import Unit4Assessemnt.B;
+import javaQuiz$Tests.Unit4Assessemnt.B;
 
     public class Test extends B {
 

@@ -1,4 +1,4 @@
-package unit5_TestCollections.Abstraction;
+package javaQuiz$Tests.unit5_TestCollections.Abstraction;
 
 public interface A {
     void readBook();

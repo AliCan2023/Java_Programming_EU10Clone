@@ -1,4 +1,4 @@
-package unit5_TestCollections.Exceptions;
+package javaQuiz$Tests.unit5_TestCollections.Exceptions;
 
 public class Tes8 {
     public static void main(String[] args) {

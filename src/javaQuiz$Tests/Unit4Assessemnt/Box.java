@@ -1,4 +1,4 @@
-package Unit4Assessemnt;
+package javaQuiz$Tests.Unit4Assessemnt;
 
 public class Box {
     double width;

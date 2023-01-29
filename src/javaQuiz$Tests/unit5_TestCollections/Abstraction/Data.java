@@ -1,4 +1,4 @@
-package unit5_TestCollections.Abstraction;
+package javaQuiz$Tests.unit5_TestCollections.Abstraction;
 
 /*public abstract class Data {
     //public abstract static void printHello();// cannot use static specifier;A static method cannot be abstract because it is already a complete implementation.
