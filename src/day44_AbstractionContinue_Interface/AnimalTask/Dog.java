@@ -5,7 +5,6 @@ public final class Dog extends Animal implements Playable{
     public Dog(String name,String breed, char gender, String color, int age, String size) {
         super(name, breed, gender, color, age, size);
     }
-
     public void bark(){
         System.out.println(getName()+ " is barking.");
 
