@@ -1,5 +1,6 @@
 package day52_Map_FunctionalInterface;
 
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -42,6 +43,21 @@ public class ArrayOfMap {
         ScrumTeam5.put("Haluk", "QA");
         ScrumTeam5.put("Zeynep", "SM");
         ScrumTeam5.put("Meral", "Dev");
+
+        Map<String,String>[] array = new Map[5];// 5 maps i have got to store above all;
+        // how should i store those maps into array? by indexing;
+        array[0]=ScrumTeam1;
+        array[1]=ScrumTeam2;
+        array[2]=ScrumTeam3;
+        array[3]=ScrumTeam4;
+        array[4]=ScrumTeam5;
+
+        System.out.println("Arrays.toString(array) = " + Arrays.toString(array));
+        System.out.println(array.length);
+
+        // when you have a list of maps you had better not use ArrayOfMap but listOfMaps;
+
+
     }
 
 
