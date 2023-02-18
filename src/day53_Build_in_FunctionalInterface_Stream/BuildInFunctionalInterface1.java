@@ -7,7 +7,7 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-public class BuildInFunctionalInterface { //predicate takes one value  and returns boolean;
+public class BuildInFunctionalInterface1 { //predicate takes one value  and returns boolean;
 
     public static void main(String[] args) {
 //1. Build in Functional Interface: Predicate;
@@ -108,7 +108,7 @@ public class BuildInFunctionalInterface { //predicate takes one value  and retur
 
         System.out.println("---------------------------------------------");
 
-        //create a function that can return the maximum number from an int array;
+
 
 
     }
